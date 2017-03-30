@@ -1,0 +1,19 @@
+{
+  "name": "oc-purple-pluto",
+  "description": "TODO",
+  "version": "1.0.0-alpha.1",
+  "repository": "TODO",
+  "oc": {
+    "files": {
+      "data": "server.js",
+      "template": {
+        "src": "template.jade",
+        "type": "jade"
+      },
+      "static": [
+        "public"
+      ]
+    },
+    "minify": false
+  }
+}

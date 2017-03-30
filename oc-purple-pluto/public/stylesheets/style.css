@@ -1,0 +1,13 @@
+form#purple-pluto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: mediumpurple;
+  padding: 0.5em;
+  display: flex;
+}
+
+form#purple-pluto fieldset ul {
+  display: flex;
+}

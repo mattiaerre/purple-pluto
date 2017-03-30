@@ -4,6 +4,7 @@
   "description": "TODO",
   "main": "index.js",
   "scripts": {
+    "copy:bundle": "cp lib/bundle.js oc-purple-pluto/public/javascripts/",
     "build": "webpack",
     "build:prod": "webpack -p",
     "start:example": "OUTPUT_PATH=example webpack-dev-server --content-base example/",
