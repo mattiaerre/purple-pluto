@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`client 1`] = `
+Object {
+  "painter": Object {
+    "paint": [Function],
+  },
+  "tracker": Object {
+    "getData": [Function],
+    "reset": [Function],
+    "start": [Function],
+    "stop": [Function],
+  },
+}
+`;
