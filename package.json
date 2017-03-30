@@ -4,12 +4,15 @@
   "description": "TODO",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -p",
-    "build:dev": "webpack",
+    "build": "webpack",
+    "build:prod": "webpack -p",
     "start:example": "OUTPUT_PATH=example webpack-dev-server --content-base example/",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "heatmap",
+    "mouse-tracking"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {

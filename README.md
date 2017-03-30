@@ -11,6 +11,6 @@ yarn
 yarn start:example
 ```
 
-Project is running at [http://localhost:8080/](http://localhost:8080/)
+The example is running at [http://localhost:8080/](http://localhost:8080/)
 
-![heat-map](heat-map.png)
+![heatmap](heatmap.png)

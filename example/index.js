@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 ((client) => {
   const options = {
     tracker: {
