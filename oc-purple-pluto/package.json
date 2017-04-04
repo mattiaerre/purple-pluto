@@ -1,8 +1,11 @@
 {
   "name": "oc-purple-pluto",
-  "description": "TODO",
+  "description": "The purple-pluto's library OpenComponent client",
   "version": "1.0.0-alpha.1",
-  "repository": "TODO",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/purple-pluto/tree/master/oc-purple-pluto"
+  },
   "oc": {
     "files": {
       "data": "server.js",

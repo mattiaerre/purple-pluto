@@ -1,21 +1,32 @@
 {
   "name": "purple-pluto",
   "version": "1.0.0-alpha.1",
-  "description": "TODO",
-  "main": "index.js",
+  "description": "purple-pluto",
+  "main": "lib/bundle.js",
   "scripts": {
-    "copy:bundle": "cp lib/bundle.js oc-purple-pluto/public/javascripts/",
-    "build": "webpack",
-    "build:prod": "webpack -p",
+    "bundle": "webpack",
+    "copy": "cp lib/bundle.js oc-purple-pluto/public/javascripts/",
     "start:example": "OUTPUT_PATH=example webpack-dev-server --content-base example/",
     "start:oc": "oc dev . 3030",
     "test": "jest"
   },
   "keywords": [
+    "components",
     "heatmap",
-    "mouse-tracking"
+    "mouse-tracking",
+    "open",
+    "opencomponents"
   ],
-  "author": "",
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Maria Athena Engesaeth",
+      "email": "me@mariaathena.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "heatmap.js": "^2.0.5"
@@ -33,5 +44,9 @@
     "oc": "^0.36.15",
     "webpack": "^2.3.2",
     "webpack-dev-server": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiaerre/purple-pluto"
   }
 }

@@ -2,12 +2,25 @@
 
 Todo: add description
 
-## Example
+## Usage
 
-Todo: add description
+Todo: add usage description
+
+## Methods
+
+Todo: add methods description
+
+## Config
+
+Todo: add config description
+
+## Example
 
 ```
 yarn
+yarn bundle
+yarn copy
+yarn start:oc
 yarn start:example
 ```
 

@@ -6,8 +6,16 @@ form#purple-pluto {
   background: mediumpurple;
   padding: 0.5em;
   display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form#purple-pluto button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 form#purple-pluto fieldset ul {
   display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
 }

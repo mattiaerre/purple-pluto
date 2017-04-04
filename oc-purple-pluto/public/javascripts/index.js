@@ -14,11 +14,6 @@
 
   let data = [];
 
-  document.getElementById('tracker-get-data').onclick = (e) => {
-    e.preventDefault();
-    console.log('tracker.getData');
-    data = tracker.getData();
-  };
   document.getElementById('tracker-reset').onclick = (e) => {
     e.preventDefault();
     console.log('tracker.reset');
@@ -33,6 +28,8 @@
     e.preventDefault();
     console.log('tracker.stop');
     tracker.stop();
+    console.log('tracker.getData');
+    data = tracker.getData();
   };
 
   document.getElementById('painter-paint').onclick = (e) => {
