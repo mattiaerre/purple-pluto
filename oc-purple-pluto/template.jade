@@ -1,7 +1,7 @@
 link(rel="stylesheet" href= staticPath + "public/stylesheets/style.css")
 script(src= staticPath + "public/javascripts/bundle.js")
 
-form#purple-pluto
+form#oc-purple-pluto
   fieldset
     legend Tracker
     ul
@@ -16,4 +16,4 @@ form#purple-pluto
     ul
       li
         button#painter-paint Paint
-script(src= staticPath + "public/javascripts/index.js")
+  script(src= staticPath + "public/javascripts/index.js" data-params= JSON.stringify(params))
