@@ -1,19 +1,20 @@
 link(rel="stylesheet" href= staticPath + "public/stylesheets/style.css")
 script(src= staticPath + "public/javascripts/bundle.js")
 
-form#oc-purple-pluto
-  fieldset
-    legend Tracker
-    ul
-      li
-        button#tracker-reset Reset
-      li
-        button#tracker-start Start
-      li
-        button#tracker-stop Stop
-  fieldset
-    legend Painter
-    ul
-      li
-        button#painter-paint Paint
+#oc-purple-pluto
+  form
+    fieldset
+      legend Tracker
+      ul
+        li
+          button#tracker-reset Reset
+        li
+          button#tracker-start Start
+        li
+          button#tracker-stop Stop
+    fieldset
+      legend Painter
+      ul
+        li
+          button#painter-paint Paint
   script(src= staticPath + "public/javascripts/index.js" data-params= JSON.stringify(params))
