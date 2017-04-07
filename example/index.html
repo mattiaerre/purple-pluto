@@ -6,32 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>example/index</title>
-  <script src="bundle.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <form>
-    <fieldset>
-      <legend>Tracker</legend>
-      <ul>
-        <li><button id="btnTrackerGetData">Get data</button></li>
-        <li><button id="btnTrackerReset">Reset</button></li>
-        <li><button id="btnTrackerStart">Start</button></li>
-        <li><button id="btnTrackerStop">Stop</button></li>
-      </ul>
-    </fieldset>
-    <fieldset>
-      <legend>Painter</legend>
-      <ul>
-        <li><button id="btnPainterPaint">Paint</button></li>
-      </ul>
-    </fieldset>
-  </form>
-  <div class="mediumpurple">
+  <oc-component href="//localhost:3030/oc-purple-pluto/1.0.0-alpha.1"></oc-component>
+  <script src="//localhost:3030/oc-client/0.36.15/static/src/oc-client.min.js"></script>
+  <div class="container">
     <h1>#YOLOTRACKANDPAINT</h1>
   </div>
-  <script src="index.js"></script>
 </body>
 
 </html>
