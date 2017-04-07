@@ -1,4 +1,4 @@
-form#oc-purple-pluto {
+#oc-purple-pluto form {
   position: absolute;
   top: 0;
   left: 0;
@@ -10,11 +10,11 @@ form#oc-purple-pluto {
   margin: 0.5em;
 }
 
-form#oc-purple-pluto button {
+#oc-purple-pluto form button {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-form#oc-purple-pluto fieldset ul {
+#oc-purple-pluto form fieldset ul {
   display: flex;
   list-style-type: none;
   padding: 0;
