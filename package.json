@@ -34,18 +34,17 @@
   "devDependencies": {
     "babel-cli": "^6.24.0",
     "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.2.2",
+    "babel-preset-env": "^1.3.2",
     "concurrently": "^3.4.0",
-    "eslint": "^3.18.0",
+    "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "jest": "^19.0.2",
-    "oc": "^0.36.15",
+    "oc": "^0.36.16",
     "serve": "^5.1.2",
-    "webpack": "^2.3.2",
-    "webpack-dev-server": "^2.4.2"
+    "webpack": "^2.3.3"
   },
   "repository": {
     "type": "git",

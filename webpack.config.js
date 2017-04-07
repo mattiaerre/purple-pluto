@@ -1,12 +1,10 @@
 const path = require('path');
 
-const outputPath = process.env.OUTPUT_PATH ? process.env.OUTPUT_PATH : 'lib';
-
 module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, outputPath)
+    path: path.join(__dirname, 'lib')
   },
   module: {
     loaders: [
