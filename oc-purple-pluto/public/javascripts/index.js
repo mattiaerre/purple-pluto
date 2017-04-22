@@ -1,12 +1,14 @@
-/* eslint-disable no-console */
+/* eslint-disable no-console, no-eval */
 
 ((client) => {
+  const params = JSON.parse(document.querySelector('#oc-purple-pluto script').getAttribute('data-params'));
+
   const options = {
     tracker: {
-      target: document.getElementsByClassName('master-container')[0]
+      target: eval(params.trackerTarget)
     },
     painter: {
-      container: document.getElementsByClassName('master-container')[0]
+      container: eval(params.painterContainer)
     }
   };
 

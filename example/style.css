@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 body, button {
   font-family: Courier New, Courier, monospace;
 }
@@ -17,11 +21,41 @@ li {
   margin: 0 0.5em;
 }
 
-.mediumpurple {
+.container {
   width: 100%;
   height: 1000px;
-  background: mediumpurple;
+  background: beige;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.shape-one {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  background-color: blue;
+  width: 10em;
+  height: 5em;
+  border: 5px solid orange;
+}
+
+.shape-two {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  background-color: yellow;
+  width: 2.5em;
+  height: 15em;
+  border: 5px solid purple;
+}
+
+.shape-three {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  background-color: red;
+  width: 5em;
+  height: 5em;
+  border: 5px solid green;
 }

@@ -6,9 +6,10 @@
   "scripts": {
     "bundle": "webpack",
     "copy": "cp lib/bundle.js oc-purple-pluto/public/javascripts/",
-    "start:example": "OUTPUT_PATH=example webpack-dev-server --content-base example/",
+    "start:example": "concurrently --kill-others 'yarn start:oc' 'yarn bundle && yarn copy && serve -p 8080 example'",
     "start:oc": "oc dev . 3030",
-    "test": "jest"
+    "test": "jest",
+    "updtr": "updtr"
   },
   "keywords": [
     "components",
@@ -32,18 +33,20 @@
     "heatmap.js": "^2.0.5"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.2.2",
-    "eslint": "^3.18.0",
+    "babel-cli": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-env": "^1.3.2",
+    "concurrently": "^3.4.0",
+    "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "jest": "^19.0.2",
-    "oc": "^0.36.15",
-    "webpack": "^2.3.2",
-    "webpack-dev-server": "^2.4.2"
+    "oc": "^0.36.16",
+    "serve": "^5.1.4",
+    "updtr": "^1.0.0",
+    "webpack": "^2.3.3"
   },
   "repository": {
     "type": "git",

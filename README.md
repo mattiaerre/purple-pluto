@@ -28,9 +28,6 @@ Todo: add config description
 
 ```
 yarn
-yarn bundle
-yarn copy
-yarn start:oc
 yarn start:example
 ```
 
