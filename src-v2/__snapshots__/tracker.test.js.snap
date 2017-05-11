@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tracker start should have 1 event after a mouse move 1`] = `
+Array [
+  Object {
+    "x": 100,
+    "y": 200,
+  },
+]
+`;
+
+exports[`tracker start should have 2 events after another mouse move 1`] = `
+Array [
+  Object {
+    "x": 100,
+    "y": 200,
+  },
+  Object {
+    "x": 300,
+    "y": 400,
+  },
+]
+`;
+
+exports[`tracker stop should have 2 events after another mouse move 1`] = `
+Array [
+  Object {
+    "x": 100,
+    "y": 200,
+  },
+  Object {
+    "x": 300,
+    "y": 400,
+  },
+]
+`;
