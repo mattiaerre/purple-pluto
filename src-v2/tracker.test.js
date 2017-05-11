@@ -1,11 +1,7 @@
 const factory = require('./tracker');
 
 describe('tracker', () => {
-  const target = { onmousemove: jest.mock() };
-
-  // a(b)
-  // a(test-double)
-  // mock
+  const target = {};
 
   const tracker = factory(target);
 
@@ -37,7 +33,6 @@ describe('tracker', () => {
       expect(tracker.data).toMatchSnapshot();
     });
 
-
     it('should have 2 events after another mouse move', () => {
       const e = { x: 300, y: 400 };
 
@@ -61,4 +56,3 @@ describe('tracker', () => {
     });
   });
 });
-
